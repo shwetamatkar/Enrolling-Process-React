@@ -1,0 +1,41 @@
+const errorText = {
+  ERROR_INFORMATION_FETCH: "Error while fetching information.",
+  ERROR_EMPTY_FIELD: "Please a enter a valid input.",
+  INVALID_DOUBLE_VERIFICATION: "Please re-confirm the entered value",
+  INFORMATION_UPDATE_SUCCESS: "Information Updated",
+  INFORMATION_UPDATE_ERROR: "Error while updating information",
+  INVALID_MOBILE_NUMBER: "Please enter valid Mobile Number.",
+  INVALID_EMAIL_ADDRESS: "Please enter valid Email Address.",
+  INVALID_FULL_NAME: "Please enter a valid name.",
+  INVALID_ADDRESS: "Please enter a valid Address.",
+  INVALID_CITY: "Please enter a valid City",
+  INVALID_STATE: "Please enter a valid State",
+  INVALID_GENDER: "Please select a valid Gender",
+  INVALID_MARITIAL_STATUS: "Please select a valid maritial status",
+  INVALID_EDUCATION: "Please select a Education qualification option.",
+  INVALID_OTP: "Invalid OTP",
+  OTP_SERVICE_ERROR: "Error while sending otp",
+  OTP_VALIDATION_ERROR: "Error while validating otp",
+  INVALID_NAME: "Please enter valid Name",
+  INVALID_PINCODE: "Please enter valid Pin Code",
+  INVALID_RMCODE: "Please enter valid RM Code",
+  INVALID_CHANNELTYPE: "Channel Type cannot be empty",
+  INVALID_PANCARD: "Please enter a valid Pan Card Number",
+  INVALID_AADHAR_CARD: "Please enter a valid Aadhar Card number",
+  EMPTY_FILE: "Kindly upload the required document.",
+  EMPTY_LICENSE: "Kindly select one of the option.",
+  INVALID_LICENSE: "Kindly unselect none with other options.",
+  INVALID_BANK_NAME: "Please enter a valid Bank name.",
+  INVALID_ACCOUNT_NUMBER: "Please enter a valid account number.",
+  INVALID_IFSC_CODE: "Please enter a valid IFSC",
+  INVALID_BANK_PROOF: "Kindly select the bank proof which you're uploading.",
+  INVALID_ADDRESS_PROOF:
+    "Kindly select the Address proof which you're uploading.",
+  INVALID_DATE_OF_BIRTH:
+    "Date of birth to be greater than or equal to 18 and less than 75.",
+  INVALID_ROLL_NUMBER: "Please enter a valid roll number.",
+  INVALID_YEAR_OF_PASSING: "Please enter a valid year of passing.",
+  INVALID_LOGIN_CREDENTIALS: "Please check your login credentials."
+};
+
+export default errorText;
